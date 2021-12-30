@@ -1,4 +1,3 @@
-
 body {
     background-color: #047086;
     color: white;
@@ -11,6 +10,12 @@ body {
     -webkit-transition: background-color 1s;
     transition: background-color 1s;
 }
+
+/* Qué hacemos*/
+#Que-hacemos h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
 /* Contacto */
 #Contacto h1 {
     font-family: 'Roboto Slab', serif;
