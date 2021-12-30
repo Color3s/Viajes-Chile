@@ -51,7 +51,17 @@ href="assets/img/viajes.svg"
                   <a class="nav-link d-none d-md-block" href="#quienessomos">Quiénes somos</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#destacados">Destacados</a>
+                  <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Destacados
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Torres del Paine</a></li>
+                      <li><a class="dropdown-item" href="#">Desierto de Atacama</a></li>
+                      <li><a class="dropdown-item" href="#">Laguna Salar</a></li>
+                      <li><a class="dropdown-item" href="#">Selva Valdiviana</a></li>
+                    </ul>
+                  </div>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#contacto">Contacto</a>
@@ -113,6 +123,74 @@ href="assets/img/viajes.svg"
             <p class="my-3">Lorem ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan synth stumptown gastropub cornhole celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk godard pour-over blog tumblr humblebrag. Blue bottle put a bird on it twee prism biodiesel brooklyn. Blue bottle ennui tbh succulents.</p>
         </div>
 
+</section>
+
+<!--Destacados--> 
+<section id= "Destacado" class="container text-center py-5">
+
+    <div class="mb-5">
+        <h1 class="fw-bold text-uppercase">DESTACADOS</h1>
+        <hr class="mx-auto">
+    </div>
+    <div class="container b">
+        <div class="row">
+
+            <div class="col-md-3 col-sm-12 col-12">
+                <div class="card mx-2 my-3">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="Torres del paine">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3 text-info bg-light fw-bold">Torres del Paine</h4>
+                        <h6 class="fw-light text-secondary">¡Todo Incluído!</h6>
+                        <h6 class="fw-light small text-secondary"><i class="fas fa-bed"></i> 4 días / 2 noches </h6>
+                        <hr class="barra my-4">
+                        <button type="submit" class="btn btn-info .text-light" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="¡Quedan pocos cupos!">Reservar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-12">
+                <div class="card mx-2 my-3">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="Desierto de Atacama">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3 text-info bg-light fw-bold">Desierto de Atacama</h4>
+                        <h6 class="fw-light text-secondary">¡Todo Incluído!</h6>
+                        <h6 class="fw-light small text-secondary"><i class="fas fa-bed"></i> 6 días / 5 noches </h6>
+                        <hr class="barra my-4">
+                        <button type="submit" class="btn btn-info">Reservar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-12">
+                <div class="card mx-2 my-3">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="Laguna Salar">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3 text-info bg-light fw-bold">Laguna Salar</h4>
+                        <h6 class="fw-light text-secondary">(no incluye desayunos)</h6>
+                        <h6 class="fw-light small text-secondary"><i class="fas fa-bed"></i> FULL DAY </h6>
+                        <hr class="barra my-4">
+                        <button type="submit" class="btn btn-danger">AGOTADO</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-12">
+                <div class="card mx-2 my-3">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="Selva Valdiviana">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3 text-info bg-light fw-bold">Selva Valdiviana</h4>
+                        <h6 class="fw-light text-secondary">¡No incluye traslados!</h6>
+                        <h6 class="fw-light small text-secondary"><i class="fas fa-bed"></i> 5 días / 4 noches </h6>
+                        <hr class="barra my-4">
+                        <button type="submit" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="¡Quedan pocos cupos!">Reservar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 
 

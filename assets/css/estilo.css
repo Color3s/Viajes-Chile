@@ -16,6 +16,13 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+/* Destacados */
+#Destacado h1 {
+    font-family: 'Roboto Slab', serif;
+}
+.barra{
+    border: solid #047086 1px;
+}
 /* Contacto */
 #Contacto h1 {
     font-family: 'Roboto Slab', serif;
