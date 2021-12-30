@@ -20,3 +20,10 @@ body {
 #Contacto h1 {
     font-family: 'Roboto Slab', serif;
 }
+
+/* Footer*/
+footer a {
+        color: white;
+        margin: 0px 10px;
+        text-decoration: none;
+    }
